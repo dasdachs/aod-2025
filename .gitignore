@@ -18,7 +18,7 @@ tmp/
 bin/
 
 # Project specific
-data/user/
+input/user/
 
 # Editor directories and files
 .vscode/*
