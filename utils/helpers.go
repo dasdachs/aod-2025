@@ -30,3 +30,12 @@ func ReadLines(path string) ([]string, error) {
 	return lines, scanner.Err()
 }
 
+func Sum[I int | uint | int8 | uint8 | int16 | uint16 | int32 | uint32 | int64 | uint64](values []I) I {
+	var res I
+
+	for _, n := range values {
+		res = res + n
+	}
+
+	return res
+}

@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"firstbulb.xyz/aod-2025/utils"
+	"firstbulb.xyz/aoc-2025/utils"
 )
 
 func Day1Part1(path string) {

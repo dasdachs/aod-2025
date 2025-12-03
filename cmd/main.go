@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"firstbulb.xyz/aod-2025/solvers"
+	"firstbulb.xyz/aoc-2025/solvers"
 )
 
 func main() {
@@ -64,12 +64,12 @@ func executeGlobalSolver(solver, part int, dataSource string) {
 		} else {
 			solvers.Day3Part2(dataSource)
 		}
-	// case 4:
-	// 	if part == 1 {
-	// 		solvers.Day4Part1(dataSource)
-	// 	} else {
-	// 		solvers.Day4Part2(dataSource)
-	// 	}
+	case 4:
+		if part == 1 {
+			solvers.Day4Part1(dataSource)
+		} else {
+			solvers.Day4Part2(dataSource)
+		}
 	// case 5:
 	// 	if part == 1 {
 	// 		solvers.Day5Part1(dataSource)
