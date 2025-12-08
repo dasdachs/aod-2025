@@ -70,18 +70,18 @@ func executeGlobalSolver(solver, part int, dataSource string) {
 		} else {
 			solvers.Day4Part2(dataSource)
 		}
-	// case 5:
-	// 	if part == 1 {
-	// 		solvers.Day5Part1(dataSource)
-	// 	} else {
-	// 		solvers.Day5Part2(dataSource)
-	// 	}
-	// case 6:
-	// 	if part == 1 {
-	// 		solvers.Day6Part1(dataSource)
-	// 	} else {
-	// 		solvers.Day6Part2(dataSource)
-	// 	}
+	case 5:
+		if part == 1 {
+			solvers.Day5Part1(dataSource)
+		} else {
+			solvers.Day5Part2(dataSource)
+		}
+	case 6:
+		if part == 1 {
+			solvers.Day6Part1(dataSource)
+		} else {
+			solvers.Day6Part2(dataSource)
+		}
 	// case 7:
 	// 	if part == 1 {
 	// 		solvers.Day7Part1(dataSource)
